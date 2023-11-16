@@ -1,9 +1,17 @@
 <template>
   <section>
-    <h2>My Friends</h2>
+    <header><h1>My Friends</h1></header>
     <ul>
-      <friend-contact></friend-contact>
-      <friend-contact></friend-contact>
+      <friend-contact
+        name="Prophet Daniel"
+        phone-number="012345678900"
+        email-address=" prophetdaniel@netcall.com"
+      ></friend-contact>
+      <friend-contact
+        name="St Siloaun"
+        phone-number="012345678900"
+        email-address="keepmindinhell@netcall.com"
+      ></friend-contact>
     </ul>
   </section>
 </template>
@@ -32,6 +40,7 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 * {
   box-sizing: border-box;
 }
